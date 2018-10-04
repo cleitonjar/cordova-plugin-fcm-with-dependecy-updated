@@ -14,18 +14,15 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios",
     "notifications",
     "push",
     "firebase",
     "fcm",
-    "ios",
     "android",
     "cordova"
   ],
   "platforms": [
-    "android",
-    "ios"
+    "android"
   ],
   "engines": [],
   "englishdoc": ""

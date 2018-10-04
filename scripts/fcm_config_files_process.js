@@ -33,7 +33,7 @@ function directoryExists(path) {
 var config = fs.readFileSync("config.xml").toString()
 var name = getValue(config, "name")
 
-if (directoryExists("platforms/ios")) {
+/*if (directoryExists("platforms/ios")) {
   var path = "GoogleService-Info.plist";
 
     if (fileExists( path )) {
@@ -47,7 +47,7 @@ if (directoryExists("platforms/ios")) {
     } else {
     throw new Error("cordova-plugin-fcm-with-dependecy-updated: You have installed platform ios but file 'GoogleService-Info.plist' was not found in your Cordova project root folder.")
   }
-}
+}*/
 
 if (directoryExists("platforms/android")) {
   var path = "google-services.json";
